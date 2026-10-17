@@ -1,0 +1,35 @@
+return {
+  "folke/which-key.nvim",
+  event = "VeryLazy",
+  opts = {
+    -- En bas, sur toute la largeur, comme le which-key de Spacemacs
+    preset = "classic",
+    delay = 200,
+    spec = {
+      { "<leader>b", group = "buffers" },
+      { "<leader>e", group = "erreurs" },
+      { "<leader>f", group = "fichiers" },
+      { "<leader>fe", group = "config (emacs.d)" },
+      { "<leader>g", group = "git" },
+      { "<leader>h", group = "aide" },
+      { "<leader>hd", group = "describe" },
+      { "<leader>j", group = "sauts" },
+      { "<leader>m", group = "major mode (LSP)" },
+      { "<leader>mg", group = "goto" },
+      { "<leader>mr", group = "refactor" },
+      { "<leader>p", group = "projet" },
+      { "<leader>q", group = "quitter" },
+      { "<leader>s", group = "recherche" },
+      { "<leader>t", group = "bascules" },
+      { "<leader>T", group = "thèmes" },
+      { "<leader>w", group = "fenêtres" },
+      { "<leader>x", group = "texte" },
+      { "<localleader>g", group = "goto" },
+      { "<localleader>r", group = "refactor" },
+      -- Cacher SPC 1..9 du menu pour ne pas l'encombrer
+      { "<leader>1", hidden = true }, { "<leader>2", hidden = true }, { "<leader>3", hidden = true },
+      { "<leader>4", hidden = true }, { "<leader>5", hidden = true }, { "<leader>6", hidden = true },
+      { "<leader>7", hidden = true }, { "<leader>8", hidden = true }, { "<leader>9", hidden = true },
+    },
+  },
+}
