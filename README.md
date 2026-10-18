@@ -34,3 +34,7 @@ Au premier lancement, lazy.nvim installe les plugins, Mason les serveurs LSP et 
 | `,` ou `SPC m` | LSP : `gg` définition, `gr` références, `rr` renommer, `a` actions, `=` formater |
 | `fd` | quitter le mode insertion |
 | `SPC t f` | activer / désactiver le formatage à la sauvegarde |
+| `SPC a c` / `SPC a f` | Claude Code : afficher/masquer / aller dans le terminal |
+| `SPC a b` / `SPC a s` | ajouter le buffer / envoyer la sélection (ou le fichier depuis neo-tree) |
+| `SPC a a` / `SPC a d` | accepter / refuser le diff proposé |
+| `SPC a r` / `SPC a C` / `SPC a m` | reprendre / continuer une session / choisir le modèle |

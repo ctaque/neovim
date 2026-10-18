@@ -6,6 +6,7 @@ return {
     preset = "classic",
     delay = 200,
     spec = {
+      { "<leader>a", group = "IA (Claude Code)" },
       { "<leader>b", group = "buffers" },
       { "<leader>e", group = "erreurs" },
       { "<leader>f", group = "fichiers" },
